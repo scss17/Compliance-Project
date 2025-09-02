@@ -1,0 +1,101 @@
+{
+  "questionnaireId": "testing",
+  "sections": [
+    {
+      "sectionId": "I",
+      "sectionTitle": "Planeación Estratégica",
+      "sectionDescription": "Evalúa la existencia de planes de negocio, la definición clara de la misión y visión, la estructura organizacional de la empresa y la planificación de la sucesión para garantizar la continuidad del negocio.",
+      "sectionType": "essential",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "¿Cuenta con un documento de Planeación Estratégica para su empresa?"
+        },
+        {
+          "id": "q2",
+          "text": "¿Se tiene una definición precisa de la Misión de su empresa?"
+        },
+        {
+          "id": "q3",
+          "text": "¿Se tiene una definición precisa de la Visión de su empresa?"
+        }
+      ]
+    },
+    {
+      "sectionId": "IIa",
+      "sectionTitle": "Legal (Persona Moral)",
+      "sectionDescription": "Analiza la gobernanza corporativa, la formalización del capital, la celebración de asambleas de socios, la correcta documentación legal y la implementación de medidas para prevenir el lavado de dinero.",
+      "sectionType": "essential",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "¿Su empresa está legalmente constituida como Persona Moral?"
+        },
+        {
+          "id": "q2",
+          "text": "¿Cuenta con un acta constitutiva actualizada?"
+        },
+        {
+          "id": "q3",
+          "text": "¿Están los poderes notariales vigentes y registrados?"
+        }
+      ]
+    },
+    {
+      "sectionId": "III",
+      "sectionTitle": "Fiscal",
+      "sectionDescription": "Verifica el registro fiscal adecuado, el uso de firmas electrónicas, el cumplimiento de obligaciones ante el SAT, el control de expedientes de clientes y proveedores, y la evaluación de operaciones en efectivo.",
+      "sectionType": "essential",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "¿Su empresa está registrada ante el SAT?"
+        },
+        {
+          "id": "q2",
+          "text": "¿Cumple con la presentación de declaraciones fiscales periódicas?"
+        },
+        {
+          "id": "q3",
+          "text": "¿Cuenta con asesoría fiscal especializada?"
+        }
+      ]
+    },
+    {
+      "sectionId": "IV",
+      "sectionTitle": "Reglamentación Interna",
+      "sectionDescription": "Evalúa políticas internas de recursos humanos, operaciones, atención a clientes, selección de proveedores y uso de activos de la empresa.",
+      "sectionType": "complementary",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "¿Se cuenta con un manual de políticas y procedimientos internos?"
+        },
+        {
+          "id": "q2",
+          "text": "¿Se realizan capacitaciones periódicas al personal sobre políticas internas?"
+        },
+        {
+          "id": "q2",
+          "text": "¿Se tiene un proceso de evaluación del desempeño del personal?"
+        }
+      ]
+    },
+    {
+      "sectionId": "X",
+      "sectionTitle": "Otras Reglamentaciones",
+      "sectionDescription": "Incluye la protección de propiedad intelectual, cumplimiento ambiental, regulación de equipos de radiocomunicación y administración de bienes afectos a la actividad empresarial.",
+      "sectionType": "complementary",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "¿La empresa cuenta con asesoría legal para la protección de su propiedad intelectual?"
+        },
+        {
+          "id": "q2",
+          "text": "¿Se cumplen las normativas ambientales aplicables a la actividad de la empresa?"
+        }
+      ]
+    }
+  ]
+}

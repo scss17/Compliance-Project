@@ -1,0 +1,518 @@
+{
+  "_copyright": "© 2025 Campoz Consultoria. All rights reserved. Use of this content requires permission.",
+  "questionnaireId": "default",
+  "sections": [
+    {
+      "sectionId": "I",
+      "sectionTitle": "Planeación Estratégica",
+      "sectionDescription": "Evalúa la existencia de planes de negocio, la definición clara de la misión y visión, la estructura organizacional de la empresa y la planificación de la sucesión para garantizar la continuidad del negocio.",
+      "sectionType": "essential",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "¿Cuenta con un documento de Planeación Estratégica para su empresa?"
+        },
+        {
+          "id": "q2",
+          "text": "¿Se tiene una definición precisa de la Misión de su empresa?"
+        },
+        {
+          "id": "q3",
+          "text": "¿Se tiene una definición precisa de la Visión de su empresa?"
+        },
+        {
+          "id": "q4",
+          "text": "¿Se tienen definidos los valores de actuación en su empresa?"
+        },
+        {
+          "id": "q5",
+          "text": "¿Su empresa cuenta con un plan de negocios formal?"
+        },
+        {
+          "id": "q6",
+          "text": "¿Cuenta su empresa con una estructura de organización formal?"
+        },
+        {
+          "id": "q7",
+          "text": "¿Cuenta con un plan sucesorio de segunda generación para la continuidad de su empresa?"
+        },
+        {
+          "id": "q8",
+          "text": "¿Cuál es su Régimen Fiscal?"
+        }
+      ]
+    },
+    {
+      "sectionId": "IIa",
+      "sectionTitle": "Legal (Personal Moral)",
+      "sectionDescription": "Analiza la gobernanza corporativa, la formalización del capital, la celebración de asambleas de socios, la correcta documentación legal y la implementación de medidas para prevenir el lavado de dinero.",
+      "sectionType": "essential",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "¿El capital de aportación en su empresa ha sido debidamente suscrito y pagado?"
+        },
+        {
+          "id": "q2",
+          "text": "¿Existe en su empresa un Consejo de Administración y este opera formalmente?"
+        },
+        {
+          "id": "q3",
+          "text": "¿Su empresa celebra cada año la Asamblea General de Socios?"
+        },
+        {
+          "id": "q4",
+          "text": "¿Se incluye durante la celebración de la Asamblea General de Socios el informe anual sobre la situación fiscal de la empresa?"
+        },
+        {
+          "id": "q5",
+          "text": "¿La sociedad cuenta con su libro de actas legal y formalmente al día?"
+        },
+        {
+          "id": "q6",
+          "text": "¿La sociedad cuenta con su libro de accionistas actualizado?"
+        },
+        {
+          "id": "q7",
+          "text": "¿Su empresa ha emitido los títulos (Acciones o Certificados de Aportación) a sus socios por sus aportaciones de capital? "
+        },
+        {
+          "id": "q8",
+          "text": "¿Se cuentan con un plan estratégico que garantice la incorporación de familiares de los socios a la administración u operaciones de la empresa?"
+        },
+        {
+          "id": "q9",
+          "text": "¿En el tema de Gobierno Corporativo, se cuenta o se contempla la creación del Comité de Prevención y Lavado de Dinero? "
+        },
+        {
+          "id": "q10",
+          "text": "¿En el tema de Gobierno Corporativo, se cuenta o se contempla la creación del Comité de Cumplimiento Normativo y Análisis de Riesgos?"
+        }
+      ]
+    },
+    {
+      "sectionId": "IIb",
+      "sectionTitle": "Legal (Personal Física)",
+      "sectionDescription": "Analiza la gobernanza corporativa, la formalización del capital, la celebración de asambleas de socios, la correcta documentación legal y la implementación de medidas para prevenir el lavado de dinero.",
+      "sectionType": "essential",
+      "questions": [
+        {
+          "id": "q1", 
+          "text": "¿Se tiene identificado el Patrimonio afecto a la actividad empresarial o profesional?"
+        }, 
+        {
+          "id": "q2",
+          "text": "¿Existe en su empresa un grupo asesor que acompañe al propietario en la toma de decisiones?"
+        },
+        {
+          "id": "q3",
+          "text": "¿Su empresa celebra reuniones de trabajo con sus principales colaboradores para evaluar resultados?"
+        }, 
+        {
+          "id": "q4",
+          "text": "¿En las reuniones de trabajo con los principales colaboradores se revisa el tema de la situación fiscal de la empresa?"
+        }, 
+        {
+          "id": "q5",
+          "text": "¿Se cuenta con una bitácora de seguimiento para los principales acuerdos de las reuniones de trabajo?"
+        },
+        {
+          "id": "q6",
+          "text": "¿La empresa cuenta con asesor jurídico para atender asuntos legales, fiscales, laborales, etc.?"
+        },
+        {
+          "id": "q7",
+          "text": "¿La empresa cuenta con asesor fiscal?"
+        },
+        {
+          "id": "q8",
+          "text": "¿Se cuentan con un plan estratégico que garantice la incorporación de familiares a la administración u operaciones de la empresa?"
+        },
+        {
+          "id": "q9",
+          "text": "¿La empresa cuenta con un plan para la Prevención y Lavado de Dinero? "
+        },
+        {
+          "id": "q10",
+          "text": "¿La empresa cuenta con un plan para el Cumplimiento Normativo y Análisis de Riesgos?"
+        }
+      ]
+    },
+    {
+      "sectionId": "III",
+      "sectionTitle": "Fiscal",
+      "sectionDescription": "Verifica el registro fiscal adecuado, el uso de firmas electrónicas, el cumplimiento de obligaciones ante el SAT, el control de expedientes de clientes y proveedores, y la evaluación de operaciones en efectivo.",
+      "sectionType": "essential",
+      "questions": [
+        {
+          "id": "q1", 
+          "text": "¿La actividad empresarial que realiza corresponde al régimen fiscal que tiene registrado ante el Registro Federal de Contribuyentes?"
+        }, 
+        {
+          "id": "q2",
+          "text": "¿El domicilio de su empresa corresponde al domicilio fiscal registrado ante el Registro Federal de Contribuyentes?"
+        },
+        {
+          "id": "q3",
+          "text": "¿Las sucursales que tiene su empresa están debidamente registradas ante el Registro Federal de Contribuyentes?"
+        }, 
+        {
+          "id": "q4",
+          "text": "¿Cuenta con Firma Electrónica Avanzada (FIEL) y Contraseña de su empresa?"
+        }, 
+        {
+          "id": "q5",
+          "text": "¿Cuenta con Firma Electrónica Avanzada (FIEL) y Contraseña de sus accionistas en el caso de Personas Morales?"
+        },
+        {
+          "id": "q6",
+          "text": "¿Cuenta su empresa con un programa de cumplimiento de obligaciones fiscales federales ante el Sistema de Administración Tributaria (SAT)?"
+        },
+        {
+          "id": "q7",
+          "text": "¿Su empresa obtiene mensualmente su formato 32-D “Opinión de Cumplimento de Obligaciones Fiscales”?"
+        },
+        {
+          "id": "q8",
+          "text": "¿La empresa cuenta con el expediente fiscal de clientes, proveedores?"
+        },
+        {
+          "id": "q9",
+          "text": "¿La empresa evalúa las operaciones en efectivo a fin de prevenir e identificar operaciones de lavado de dinero? "
+        },
+        {
+          "id": "q10",
+          "text": "¿La empresa cuenta con un programa para presentar oportunamente sus declaraciones fiscales mensuales, anuales e informativas? "
+        }
+      ]
+    },
+    {
+      "sectionId": "IV",
+      "sectionTitle": "Laboral",
+      "sectionDescription": "Revisa los expedientes de trabajadores, la afiliación sindical, las políticas de recursos humanos, el cumplimiento en la nómina y la implementación de programas de seguridad e higiene en el trabajo.",
+      "sectionType": "essential",
+      "questions": [
+        {
+          "id": "q1", 
+          "text": "¿Su empresa cuenta con trabajadores o empleados?"
+        }, 
+        {
+          "id": "q2",
+          "text": "¿Los trabajadores o empleados de su empresa están incorporados a algún sindicato?"
+        },
+        {
+          "id": "q3",
+          "text": "¿Cuenta su empresa con un departamento de Recursos Humanos?"
+        }, 
+        {
+          "id": "q4",
+          "text": "¿La empresa cuenta con un expediente personal y fiscal de sus trabajadores?"
+        }, 
+        {
+          "id": "q5",
+          "text": "¿Tiene su empresa celebrado contrato individual de trabajo con sus trabajadores y empleados?"
+        },
+        {
+          "id": "q6",
+          "text": "¿Su empresa cuenta con un tabulador de sueldos y un portafolio de prestaciones para sus trabajadores?"
+        },
+        {
+          "id": "q7",
+          "text": "¿Al realizar el pago de nóminas a sus trabajadores se timbran fiscalmente los recibos de nóminas?"
+        },
+        {
+          "id": "q8",
+          "text": "¿Cuenta su empresa con un programa formal para atender inspecciones de la Secretaria del Trabajo y Previsión Social en temas de Seguridad e Higiene en el trabajo?"
+        },
+        {
+          "id": "q9",
+          "text": "¿Cuenta su empresa con un programa formal para atender inspecciones de la Secretaria del Trabajo y Previsión Social en temas de Condiciones Generales de Trabajo?"
+        },
+        {
+          "id": "q10",
+          "text": "¿La empresa tiene conformada su comisión de seguridad e higiene con la participación de sus trabajadores"
+        }
+      ]
+    },
+    {
+      "sectionId": "V",
+      "sectionTitle": "Seguridad Social",
+      "sectionDescription": "Asegura el cumplimiento de las obligaciones ante el IMSS, INFONAVIT e INFONACOT, incluyendo el registro de trabajadores, la correcta integración salarial y la implementación de programas preventivos para reducir accidentes laborales.",
+      "sectionType": "essential",
+      "questions": [
+        {
+          "id": "q1", 
+          "text": "¿Su empresa cuenta con registro patronal ante el Instituto Mexicano del Seguro Social?"
+        }, 
+        {
+          "id": "q2",
+          "text": "¿Sus trabajadores están inscritos en el Instituto Mexicano del Seguro Social?"
+        },
+        {
+          "id": "q3",
+          "text": "¿En la determinación del salario diario integrado de sus trabajadores, la empresa considera todas las prestaciones pagadas y gravadas para IMSS?"
+        }, 
+        {
+          "id": "q4",
+          "text": "¿Se cuenta con un programa de cumplimiento oportuno de obligaciones en materia de seguridad (IMSS, Seguro para el Retiro e INFONAVIT)"
+        }, 
+        {
+          "id": "q5",
+          "text": "¿La empresa obtiene mensualmente su Opinión de Cumplimiento de Obligaciones Fiscales en materia de I.M.S.S.?"
+        },
+        {
+          "id": "q6",
+          "text": "¿La empresa presenta oportunamente sus avisos de alta, baja y modificación de salarios diarios integrados? "
+        },
+        {
+          "id": "q7",
+          "text": "¿La empresa presenta oportunamente su declaración anual de prima de riesgo ante el I.M.S.S.?"
+        },
+        {
+          "id": "q8",
+          "text": "¿La empresa cuenta con un programa preventivo para reducir accidentes de trabajo?"
+        },
+        {
+          "id": "q9",
+          "text": "¿La empresa retiene el valor de los créditos otorgados por el INFONAVIT a sus trabajadores y los entera oportunamente en el pago de cuotas y aportaciones de seguridad social?"
+        },
+        {
+          "id": "q10",
+          "text": "¿La empresa se encuentra inscrita en el INFONACOT en apoyo a sus trabajadores?"
+        }
+      ]
+    },
+    {
+      "sectionId": "VI",
+      "sectionTitle": "Normatividad Estatal y Municipal",
+      "sectionDescription": "Verifica el cumplimiento de licencias de funcionamiento, obligaciones fiscales locales, registro de propiedades y vehículos, así como la adherencia a regulaciones estatales y municipales.",
+      "sectionType": "essential",
+      "questions": [
+        {
+          "id": "q1", 
+          "text": "¿La empresa cuenta con licencia de funcionamiento municipal o estatal?"
+        }, 
+        {
+          "id": "q2",
+          "text": "¿La empresa se encuentra debidamente inscrita en el padrón estatal de contribuyentes?"
+        },
+        {
+          "id": "q3",
+          "text": "¿Cuenta la empresa con un programa de cumplimiento de obligaciones fiscales estatales?"
+        }, 
+        {
+          "id": "q4",
+          "text": "¿Si la empresa cuenta con propiedades afectas a la actividad empresarial, se paga oportunamente el impuesto predial?"
+        }, 
+        {
+          "id": "q5",
+          "text": "¿Si la empresa cuenta con vehículos afectos a la actividad empresarial, se paga oportunamente el refrendo vehicular, placas, etc.?"
+        },
+        {
+          "id": "q6",
+          "text": "¿La empresa cuenta con los contratos que amparen la recepción de servicios profesionales (contables, legales, médicos, etc.)?"
+        },
+        {
+          "id": "q7",
+          "text": "¿La empresa cuenta con los contratos que amparen el arrendamiento de bienes inmuebles afectos a la actividad empresarial?"
+        },
+        {
+          "id": "q8",
+          "text": "¿La empresa cumple oportunamente con el pago del impuesto cedular por concepto de servicios profesionales o arrendamiento de inmuebles?"
+        },
+        {
+          "id": "q9",
+          "text": "¿Se realiza oportunamente el refrendo o actualización de la licencia de funcionamiento de los establecimientos afectos a la actividad empresarial?"
+        },
+        {
+          "id": "q10",
+          "text": "¿La empresa cuenta con protocolos establecidos para la atención de visitas domiciliarias de las autoridades estatales o municipales?"
+        }
+      ]
+    },
+    {
+      "sectionId": "VII",
+      "sectionTitle": "Control Interno y Normatividad Financiera",
+      "sectionDescription": "Monitorea las prácticas contables, la elaboración y dictamen de estados financieros, el control de nóminas y cuentas, y la cobertura mediante seguros empresariales.",
+      "sectionType": "complementary",
+      "questions": [
+        {
+          "id": "q1", 
+          "text": "¿La empresa cuenta con Contador Público interno?"
+        }, 
+        {
+          "id": "q2",
+          "text": "¿Se elaboran Estados Financieros mensualmente?"
+        },
+        {
+          "id": "q3",
+          "text": "¿La empresa Dictamina Financiera o Fiscalmente sus Estados financieros?"
+        }, 
+        {
+          "id": "q4",
+          "text": "¿La empresa cuenta con sistemas auxiliares para el control de sus cuentas por cobrar (clientes)?"
+        }, 
+        {
+          "id": "q5",
+          "text": "¿La empresa cuenta con sistemas auxiliares para el control de cuentas por pagar (proveedores, bancos, etc.)?"
+        },
+        {
+          "id": "q6",
+          "text": "¿La empresa cuenta con sistema auxiliar para el control y elaboración de nóminas de personal?"
+        },
+        {
+          "id": "q7",
+          "text": "¿Cuenta la empresa con Contador Público externo?"
+        },
+        {
+          "id": "q8",
+          "text": "¿EL Contador Público externo solo se ocupa de la determinación de impuestos?"
+        },
+        {
+          "id": "q9",
+          "text": "¿La empresa cuenta con las Licencias de Autorización para el uso de sistemas informáticos (Windows, Office, etc.)?"
+        },
+        {
+          "id": "q10",
+          "text": "¿La empresa cuenta con póliza de Seguro Empresarial para proteger las instalaciones y bienes afectos a la actividad empresarial?"
+        }
+      ]
+    },
+    {
+      "sectionId": "VIII",
+      "sectionTitle": "Protección de Datos Personales",
+      "sectionDescription": "Comprueba el cumplimiento de la Ley de Protección de Datos Personales en Posesión de Particulares para clientes, empleados y proveedores, incluyendo avisos de privacidad y protocolos de seguridad informática.",
+      "sectionType": "complementary",
+      "questions": [
+        {
+          "id": "q1", 
+          "text": "¿Conoce la empresa la Ley de Protección de Datos Personales en Propiedad de Particulares?"
+        }, 
+        {
+          "id": "q2",
+          "text": "¿La empresa cuenta con aviso de privacidad para sus clientes?"
+        },
+        {
+          "id": "q3",
+          "text": "¿La empresa cuenta con aviso de privacidad para sus proveedores?"
+        }, 
+        {
+          "id": "q4",
+          "text": "¿La empresa cuenta con aviso de privacidad para sus trabajadores?"
+        }, 
+        {
+          "id": "q5",
+          "text": "¿La empresa tiene protocolos para la custodia y protección de datos personales de clientes proveedores y trabajadores en su poder?"
+        },
+        {
+          "id": "q6",
+          "text": "¿La empresa cuenta con equipo de cómputo y sistemas informáticos para el procesamiento y protección de los datos personales de clientes, proveedores y trabajadores?"
+        },
+        {
+          "id": "q7",
+          "text": "¿La empresa cuenta con protocolos para la atención de requerimientos o visitas domiciliarias relacionadas con la Ley de protección de Datos Personales en Propiedad de Particulares?"
+        },
+        {
+          "id": "q8",
+          "text": "¿Tiene conocimiento de las sanciones por el incumplimiento a la Ley de protección de Datos Personales en Propiedad de Particulares?"
+        },
+        {
+          "id": "q9",
+          "text": "¿La empresa lleva a cabo procesos de capacitación en el tema de protección de datos personales?"
+        },
+        {
+          "id": "q10",
+          "text": "¿La empresa cuenta con una política para la protección de sus datos personales que son entregados a terceros?"
+        }
+      ]
+    },
+    {
+      "sectionId": "IX",
+      "sectionTitle": "Reglamentación Interna",
+      "sectionDescription": "Evalúa políticas internas de recursos humanos, operaciones, atención a clientes, selección de proveedores y uso de activos de la empresa.",
+      "sectionType": "complementary",
+      "questions": [
+        {
+          "id": "q1", 
+          "text": "¿La empresa cuenta con un reglamento interno de trabajo?"
+        }, 
+        {
+          "id": "q2",
+          "text": "¿La empresa cuenta con una política laboral para el pago de salarios?"
+        },
+        {
+          "id": "q3",
+          "text": "¿La empresa cuenta con una política laboral para la asignación y pago de estímulos, bonos de producción, tiempo extra, etc.)?"
+        }, 
+        {
+          "id": "q4",
+          "text": "¿La empresa cuenta con una política de desarrollo humano a través de programas de capacitación?"
+        }, 
+        {
+          "id": "q5",
+          "text": "¿La empresa cuenta con políticas empresariales para la atención a clientes?"
+        },
+        {
+          "id": "q6",
+          "text": "¿La empresa cuenta con políticas empresariales para selección de proveedores?"
+        },
+        {
+          "id": "q7",
+          "text": "¿La empresa cuenta con política empresarial para el pago a proveedores?"
+        },
+        {
+          "id": "q8",
+          "text": "¿La empresa cuenta con políticas empresariales para la selección, reclutamiento y contratación de personal?"
+        },
+        {
+          "id": "q9",
+          "text": "¿La empresa cuenta con políticas para el otorgamiento de préstamos al personal?"
+        },
+        {
+          "id": "q10",
+          "text": "¿La empresa cuenta con políticas empresariales para el uso y cuidado de la maquinaria y equipo, equipo de transporte afecta a la actividad empresarial?"
+        }
+      ]
+    },
+    {
+      "sectionId": "X",
+      "sectionTitle": "Otras Reglamentaciones",
+      "sectionDescription": "Incluye la protección de propiedad intelectual, cumplimiento ambiental, regulación de equipos de radiocomunicación y administración de bienes afectos a la actividad empresarial.",
+      "sectionType": "complementary",
+      "questions": [
+        {
+          "id": "q1", 
+          "text": "¿La empresa cuenta con Logotipo y/o Marca Comercial?"
+        }, 
+        {
+          "id": "q2",
+          "text": "¿La empresa tiene debidamente registrado su Logotipo y/o Marca Comercial ante el Instituto Mexicano de la Protección Industrial?"
+        },
+        {
+          "id": "q3",
+          "text": "¿La empresa cuenta con un programa de cumplimiento de obligaciones ambientales estatales o municipales?"
+        }, 
+        {
+          "id": "q4",
+          "text": "¿La empresa tiene equipos de radiocomunicación?"
+        }, 
+        {
+          "id": "q5",
+          "text": "¿En el caso de contar con equipo de radiocomunicación se pagan oportunamente los derechos al Instituto Federal de Telecomunicaciones?"
+        },
+        {
+          "id": "q6",
+          "text": "¿La empresa verifica periódicamente que los bienes afectos a la actividad empresarial estén libres de gravamen?"
+        },
+        {
+          "id": "q7",
+          "text": "¿La empresa cuenta con un archivo especifico de los documentos que acreditan la propiedad de los bienes afectos a la actividad empresarial?"
+        },
+        {
+          "id": "q8",
+          "text": "¿Cuándo la empresa contrata y otorga una fianza, verifica que, al concluir el compromiso u obligación contraída, no exista gravamen a cargo de la empresa?"
+        }
+      ]
+    }
+  ]
+}
