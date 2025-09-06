@@ -1,0 +1,40 @@
+{
+  "userId": "user-1",
+  "responseDate": "2025-09-02T10:30:00Z",
+  "responses": [
+    {
+      "sectionId": "I",
+      "sectionType": "essential",
+      "answers": [
+        { "questionId": "q1", "answer": "Sí" },
+        { "questionId": "q2", "answer": "Sí" },
+        { "questionId": "q3", "answer": "Sí" }
+      ],
+      "result": 10
+    },
+    {
+      "sectionId": "IIa",
+      "sectionType": "essential",
+      "answers": [
+        { "questionId": "q1", "answer": "Sí" },
+        { "questionId": "q2", "answer": "Sí" },
+        { "questionId": "q3", "answer": "Sí" }
+      ],
+      "result": 10
+    },
+    {
+      "sectionId": "III",
+      "sectionType": "essential",
+      "answers": [
+        { "questionId": "q1", "answer": "No" },
+        { "questionId": "q2", "answer": "Sí" },
+        { "questionId": "q3", "answer": "Sí" }
+      ],
+      "result": 0.66
+    }
+  ],
+  "overallResults": {
+    "essential": 6.88,
+    "complementary": 0
+  }
+}
