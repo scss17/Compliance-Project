@@ -11,6 +11,10 @@ import { DynamoDBClient, ListTablesCommand } from "@aws-sdk/client-dynamodb";
 import { PutCommand, DynamoDBDocumentClient } from "@aws-sdk/lib-dynamodb";
 import { fromIni } from "@aws-sdk/credential-providers";
 
+// Constants variables from environment
+import "dotenv/config";
+const { REGION, AWS_PROFILE } = process.env;
+
 /**
  * Writes questionnaire data into a DynamoDB table.
  *
@@ -22,48 +26,57 @@ import { fromIni } from "@aws-sdk/credential-providers";
  */
 
 const writeToDynamo = async (tableName, questionnaireData) => {
-	// DynamoDB client configuration
-	const client = new DynamoDBClient({
-		region: "us-east-1",
-		credentials: fromIni({ profile: "pabloC" }),
-	});
-	const docClient = DynamoDBDocumentClient.from(client);
+  // DynamoDB client configuration
+  const client = new DynamoDBClient({
+    region: REGION,
+    credentials: fromIni({ profile: AWS_PROFILE }),
+  });
+  const docClient = DynamoDBDocumentClient.from(client);
 
-	// Check if the table exists
-	const command = new ListTablesCommand({});
-	const response = await client.send(command);
+  // Check if the table exists
+  const command = new ListTablesCommand({});
+  const response = await client.send(command);
 
-	if(!response.TableNames.includes(tableName)) {
-		throw new Error(`Table "${tableName}" does not exist`);
-	}
+  if (!response.TableNames.includes(tableName)) {
+    throw new Error(`Table "${tableName}" does not exist`);
+  }
 
-	const { questionnaireId, sections } = questionnaireData;
-	console.log(`Questionnaire ID: ${questionnaireId}`);
-	for (const { sectionId, sectionTitle, sectionDescription, sectionType, questions } of sections) {
-		const putCommand = new PutCommand({
-			TableName: tableName,
-			Item: {
-				questionnaireId,
-				sectionId,
-				sectionTitle,
-				sectionDescription,
-				sectionType,
-				questions
-			},
-			ConditionExpression: "attribute_not_exists(questionnaireId) AND attribute_not_exists(sectionId)",
-		});
+  const { questionnaireId, sections } = questionnaireData;
+  console.log(`Questionnaire ID: ${questionnaireId}`);
+  for (const {
+    sectionId,
+    sectionTitle,
+    sectionDescription,
+    sectionType,
+    questions,
+  } of sections) {
+    const putCommand = new PutCommand({
+      TableName: tableName,
+      Item: {
+        questionnaireId,
+        sectionId,
+        sectionTitle,
+        sectionDescription,
+        sectionType,
+        questions,
+      },
+      ConditionExpression:
+        "attribute_not_exists(questionnaireId) AND attribute_not_exists(sectionId)",
+    });
 
-		try {
-			await docClient.send(putCommand);
-			console.log("Data written to DynamoDB successfully.");
-		} catch (error) {
-			if (error.name === "ConditionalCheckFailedException") {
-				console.log(`Item with questionnaireId: ${questionnaireId} and sectionId: ${sectionId} already exists. Skipping.`);
-			} else {
-				console.error("Error writing to DynamoDB:", error);
-			}
-		}	
-	}
+    try {
+      await docClient.send(putCommand);
+      console.log("Data written to DynamoDB successfully.");
+    } catch (error) {
+      if (error.name === "ConditionalCheckFailedException") {
+        console.log(
+          `Item with questionnaireId: ${questionnaireId} and sectionId: ${sectionId} already exists. Skipping.`
+        );
+      } else {
+        console.error("Error writing to DynamoDB:", error);
+      }
+    }
+  }
 };
 
 export default writeToDynamo;

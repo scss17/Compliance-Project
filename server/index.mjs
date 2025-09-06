@@ -7,25 +7,24 @@
  * @date 09/02/2025
  */
 
-// Utility functions 
+// Utility functions
 import readQuestionnaireData from "./utils/readQuestionnaireData.mjs";
 import writeToDynamo from "./utils/writeToDynamo.mjs";
 
-const questionnaireId = "default";
-const dynamoTable = "ComplianceQuestionnaire";
+// Constants variables from environment
+import "dotenv/config";
+const { QUESTIONNAIRE_ID, TABLE_NAME } = process.env;
 
 try {
-	console.log("Starting process...");
+  console.log("Starting process...");
 
-	// Read questionnaire data from JSON file
-	let questionnaireData = readQuestionnaireData(questionnaireId);
+  // Read questionnaire data from JSON file
+  let questionnaireData = readQuestionnaireData(QUESTIONNAIRE_ID);
 
-	// Write questionnaire data into DynamoDB
-	writeToDynamo(dynamoTable, questionnaireData);
-
+  // Write questionnaire data into DynamoDB
+  writeToDynamo(TABLE_NAME, questionnaireData);
 } catch (error) {
-	console.error("An error has occurred:", error);
+  console.error("An error has occurred:", error);
 } finally {
-	console.log("Process finished.");
-}; 
-
+  console.log("Process finished.");
+}
