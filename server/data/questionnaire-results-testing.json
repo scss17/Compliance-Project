@@ -9,7 +9,8 @@
         { "questionId": "q1", "answer": "Sí" },
         { "questionId": "q2", "answer": "Sí" },
         { "questionId": "q3", "answer": "Sí" }
-      ]
+      ],
+      "result": 10
     },
     {
       "sectionId": "IIa",
@@ -18,7 +19,8 @@
         { "questionId": "q1", "answer": "Sí" },
         { "questionId": "q2", "answer": "Sí" },
         { "questionId": "q3", "answer": "Sí" }
-      ]
+      ],
+      "result": 10
     },
     {
       "sectionId": "III",
@@ -27,7 +29,12 @@
         { "questionId": "q1", "answer": "No" },
         { "questionId": "q2", "answer": "Sí" },
         { "questionId": "q3", "answer": "Sí" }
-      ]
+      ],
+      "result": 0.66
     }
-  ]
+  ],
+  "overallResults": {
+    "essential": 6.88,
+    "complementary": 0
+  }
 }
